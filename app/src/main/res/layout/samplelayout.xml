@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#CCB0A7"
+    >
+
+    <TextView
+        android:id="@+id/tvSampleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude : "
+        android:textSize="25sp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvSampleAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude : "
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_below="@+id/tvSampleName"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/etLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/etLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_below="@+id/etLatitude"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load data"
+        android:padding="5dp"
+        android:layout_below="@+id/etLongitude"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btnGomap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoMap"
+        android:padding="5dp"
+        android:layout_below="@+id/btnLoad"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>
